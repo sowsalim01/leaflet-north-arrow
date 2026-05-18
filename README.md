@@ -144,7 +144,7 @@ Les contributions sont les bienvenues ! N'hésitez pas à:
 
 ## Auteur
 
-Créé pour la communauté Leaflet.
+Créé par Mamadou SOW pour les cartes leaflet 
 
 ## Liens
 
