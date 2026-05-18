@@ -1,0 +1,32 @@
+{
+  "name": "leaflet-north-arrow",
+  "version": "1.0.0",
+  "description": "A customizable North Arrow plugin for Leaflet maps with multiple styles",
+  "main": "leaflet-north-arrow.js",
+  "style": "leaflet-north-arrow.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "leaflet",
+    "plugin",
+    "north-arrow",
+    "compass",
+    "map",
+    "gis",
+    "cartography"
+  ],
+  "author": "Mamadou SOW <sowsalim>",
+  "license": "MIT",
+  "peerDependencies": {
+    "leaflet": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sowsalim01/leaflet-north-arrow.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sowsalim01/leaflet-north-arrow/issues"
+  },
+  "homepage": "https://github.com/sowsalim01/leaflet-north-arrow#readme"
+}
