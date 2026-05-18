@@ -22,13 +22,13 @@ Ajoutez simplement les fichiers CSS et JS à votre page HTML:
 <script src="leaflet-north-arrow.js"></script>
 ```
 
-### Via npm
+html### Via npm
 
 ```bash
 npm install leaflet-north-arrow
 ```
 
-## Utilisation
+bash## Utilisation
 
 ### Exemple basique
 
@@ -36,7 +36,7 @@ npm install leaflet-north-arrow
 const map = L.map('map').setView([48.8566, 2.3522], 13);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; OpenStreetMap contributors'
+    attribution: '© OpenStreetMap contributors'
 }).addTo(map);
 
 // Ajouter la flèche nord
@@ -49,21 +49,21 @@ L.northArrow({
 });
 ```
 
-### Options disponibles
+javascript### Options disponibles
 
-| Option | Type | Défaut | Description |
-|--------|------|--------|-------------|
-| `map` | Object | - | Instance de la carte Leaflet |
-| `position` | String | `'topright'` | Position: `'topleft'`, `'topright'`, `'bottomleft'`, `'bottomright'` |
-| `style` | String | `'classic'` | Style de la flèche: voir liste ci-dessous |
-| `size` | Number | `80` | Taille en pixels |
-| `color` | String | `'#2c3e50'` | Couleur de la flèche (code hexadécimal) |
-| `opacity` | Number | `1` | Opacité entre 0 et 1 |
-| `tooltip` | String | `'Nord'` | Texte du tooltip au survol |
-| `clickToRotate` | Boolean | `false` | Active la rotation au clic |
-| `showCompass` | Boolean | `false` | Affiche la lettre N |
-| `className` | String | `''` | Classe CSS additionnelle |
-| `onRotate` | Function | - | Callback appelé lors de la rotation |
+| Option            | Type     | Défaut        | Description                                                                 |
+| ----------------- | -------- | -------------- | --------------------------------------------------------------------------- |
+| `map`           | Object   | -              | Instance de la carte Leaflet                                                |
+| `position`      | String   | `'topright'` | Position:`'topleft'`, `'topright'`, `'bottomleft'`, `'bottomright'` |
+| `style`         | String   | `'classic'`  | Style de la flèche: voir liste ci-dessous                                  |
+| `size`          | Number   | `80`         | Taille en pixels                                                            |
+| `color`         | String   | `'#2c3e50'`  | Couleur de la flèche (code hexadécimal)                                   |
+| `opacity`       | Number   | `1`          | Opacité entre 0 et 1                                                       |
+| `tooltip`       | String   | `'Nord'`     | Texte du tooltip au survol                                                  |
+| `clickToRotate` | Boolean  | `false`      | Active la rotation au clic                                                  |
+| `showCompass`   | Boolean  | `false`      | Affiche la lettre N                                                         |
+| `className`     | String   | `''`         | Classe CSS additionnelle                                                    |
+| `onRotate`      | Function | -              | Callback appelé lors de la rotation                                        |
 
 ### Styles disponibles
 
@@ -101,7 +101,7 @@ northArrow.setTooltip('Direction Nord');
 const container = northArrow.getContainer();
 ```
 
-### Exemple avec rotation interactive
+javascript### Exemple avec rotation interactive
 
 ```javascript
 L.northArrow({
@@ -117,9 +117,11 @@ L.northArrow({
 });
 ```
 
-## Démonstration
+javascript## Démonstration
 
 Ouvrez le fichier `demo.html` dans votre navigateur pour voir une démonstration interactive avec tous les styles et options disponibles.
+
+![1779126426146](image/README/1779126426146.png)
 
 ## Compatibilité
 
@@ -134,6 +136,7 @@ MIT License - voir le fichier [LICENSE](LICENSE) pour plus de détails.
 ## Contribution
 
 Les contributions sont les bienvenues ! N'hésitez pas à:
+
 - Signaler des bugs
 - Proposer de nouvelles fonctionnalités
 - Soumettre des pull requests
